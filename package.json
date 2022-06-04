@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CaioRolla/npm-package-boilerplate.git"
+    "url": "git+https://github.com/Beew-io/beew-sdk.git"
   },
   "author": "CaioRolla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CaioRolla/npm-package-boilerplate/issues"
+    "url": "https://github.com/Beew-io/beew-sdk/issues"
   },
-  "homepage": "https://github.com/CaioRolla/npm-package-boilerplate#readme",
+  "homepage": "https://github.com/Beew-io/beew-sdk#readme",
   "keywords": [
     "boilerplate"
   ],
