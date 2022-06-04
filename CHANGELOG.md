@@ -5,6 +5,21 @@
 
 * Fix repo name on package.json ([fb6095a](https://github.com/Beew-io/beew-sdk/commit/fb6095a4af6f66658e3c6872dad92b4f8dceafde))
 * New keywords for package.json ([96e3fdf](https://github.com/Beew-io/beew-sdk/commit/96e3fdfec42f4b6462c4139e00cfecd025067ed7))
+* Remove bundles and fix CI ([60c877d](https://github.com/Beew-io/beew-sdk/commit/60c877d3c4ec762fbe9861e02b1efe42290e2906))
+* Remove bundles and fix CI ([f9e0ff9](https://github.com/Beew-io/beew-sdk/commit/f9e0ff96e67d8e72d2b90a9993c21583b5f62997))
+
+
+### Features
+
+* Implemented basic funtionality of SDK ([4a4b5d1](https://github.com/Beew-io/beew-sdk/commit/4a4b5d1e206cccd0cf5bc80d52f419ab52b024ce))
+
+# 1.0.0 (2022-06-04)
+
+
+### Bug Fixes
+
+* Fix repo name on package.json ([fb6095a](https://github.com/Beew-io/beew-sdk/commit/fb6095a4af6f66658e3c6872dad92b4f8dceafde))
+* New keywords for package.json ([96e3fdf](https://github.com/Beew-io/beew-sdk/commit/96e3fdfec42f4b6462c4139e00cfecd025067ed7))
 * Remove bundles and fix CI ([f9e0ff9](https://github.com/Beew-io/beew-sdk/commit/f9e0ff96e67d8e72d2b90a9993c21583b5f62997))
 
 
