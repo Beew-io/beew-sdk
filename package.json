@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/Beew-io/beew-sdk#readme",
   "keywords": [
-    "boilerplate"
+    "beew",
+    "crontab",
+    "scheduler",
+    "timezone",
+    "recurring",
+    "cron"
   ],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
