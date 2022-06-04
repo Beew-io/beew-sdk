@@ -1,2 +1,0 @@
-var npmPackageBoilerplateTest;(()=>{"use strict";var e,a={};e=a,Object.defineProperty(e,"__esModule",{value:!0}),e.someChanges2=void 0,e.someChanges2=function(e){return"Testing 01 ".concat(e)},npmPackageBoilerplateTest=a})();
-//# sourceMappingURL=npm-package-boilerplate-test-2-1.0.0.js.map

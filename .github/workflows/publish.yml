@@ -39,23 +39,16 @@ jobs:
       - name: Build new README
         run: npm run generate-readme
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build package
-        run: npm run build
-
-      - name: Commit Readme and Bundle
+      - name: Commit Readme
         run: |
           git config --local user.email "caiioocesar@outlook.com"
           git config --local user.name "Publish Action"
-          git add bundles/*
           git add README.md
           git commit -m "chore(CI) Generate bundles and Readme [skip ci]" -a
         continue-on-error: true
 
-      - name: Push bundle changes
+      - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          force: true
+          force: false
           github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsc && node dist/examples/example001.js",
-    "build": "tsc && webpack",
+    "build": "tsc",
     "test": "jest",
     "generate-readme": "rm README.md && npx readme-md-generator -y -p ./blueprint.md"
   },
