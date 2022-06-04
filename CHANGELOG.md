@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Beew-io/beew-sdk/compare/v1.0.1...v1.1.0) (2022-06-04)
+
+
+### Features
+
+* New Readme and docs ([39d35ba](https://github.com/Beew-io/beew-sdk/commit/39d35ba01e55a610441058fe8b432be10e766dc7))
+
 ## [1.0.1](https://github.com/Beew-io/beew-sdk/compare/v1.0.0...v1.0.1) (2022-06-04)
 
 
