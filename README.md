@@ -1,35 +1,54 @@
-# Welcome to beew-sdk 👋
-[![Version](https://img.shields.io/npm/v/beew-sdk.svg)](https://www.npmjs.com/package/beew-sdk)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/Beew-io/beew-sdk#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Beew-io/beew-sdk/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/Beew-io/beew-sdk)](https://github.com/Beew-io/beew-sdk/blob/master/LICENSE)
+# Welcome to beew 👋
+
 
 > The simplest way of scheduling HTTP requests
-
+> 
 ## Install
 
+`npm install --save beew`
 
-TODO - 1.0.0
+## Create a Beew Account
 
+You need to have a Beew account to create schedules. Go to [app.beew.io](https://app.beew.io/) and sign up.
 
-## Usage
+## Usage with Typescript
 
+```typescript
+import { Beew, ScheduleMethod, ScheduleResponseType, ScheduleType } from "beew";
 
-https://github.com/semantic-release/semantic-release
+/*
+ * You can find your Beew secret in the Beew dashboard.
+ * https://app.beew.io/en/api-settings
+ */
+const client = new Beew({ secret: "YOU_API_KEY_HERE" });
 
+client.schedule.create({
+  name: "test",
+  cronExpression: "* * * * *",
+  url: "https://beew.io/api/v1/health/ok",
+  notifyOnError: false,
+  headers: [],
+  payload: JSON.stringify({}),
+  timezone: "America/Sao_Paulo",
+  method: ScheduleMethod.GET,
+  responseType: ScheduleResponseType.JSON,
+  type: ScheduleType.RECURRING,
+});
+```
 
-## 🤝 Contributing
+Here is a list of all available methods:
 
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](https://github.com/Beew-io/beew-sdk/issues). You can also take a look at the [contributing guide](https://github.com/Beew-io/beew-sdk/blob/master/CONTRIBUTING.md).
+| Method  | Description  |
+|---|---|
+| client.schedule.create(args)  | Create a new schedule  |
+| client.schedule.update(args)  | Update schedule  |
+| client.schedule.get('schedule_id')  | Get schedule by id  |
+| client.schedule.delete('schedule_id')  | Delete schedule  |
+| client.execution.get('execution_id')  | Get execution by id  |
 
 
 ## 📝 License
 
-
 This project is [MIT](https://github.com/Beew-io/beew-sdk/blob/master/LICENSE) licensed.
 
-
-***
+---
