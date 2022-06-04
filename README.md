@@ -52,10 +52,3 @@ Here is a list of all available methods:
 | client.schedule.delete('schedule_id')  | Delete schedule  |
 | client.execution.get('execution_id')  | Get execution by id  |
 
-
-
-## 📝 License
-
-This project is [MIT](https://github.com/Beew-io/beew-sdk/blob/master/LICENSE) licensed.
-
----

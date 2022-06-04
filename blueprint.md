@@ -54,10 +54,3 @@ Here is a list of all available methods:
 | client.schedule.delete('schedule_id')  | Delete schedule  |
 | client.execution.get('execution_id')  | Get execution by id  |
 
-
-
-## 📝 License
-
-This project is [<%= licenseName %>](<%= licenseUrl %>) licensed.
-
----
