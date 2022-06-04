@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "dev": "tsc && node dist/examples/example001.js",
     "build": "tsc && webpack",
     "test": "jest",
     "generate-readme": "rm README.md && npx readme-md-generator -y -p ./blueprint.md"
@@ -40,6 +41,7 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "concurrently": "^7.2.1"
   }
 }

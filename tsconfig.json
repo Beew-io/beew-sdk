@@ -6,8 +6,7 @@
     "lib": [
       "es2017",
       "es7",
-      "es6",
-      "dom"
+      "es6"
     ], /* Specify library files to be included in the compilation. */
     "declaration": true, /* Generates corresponding '.d.ts' file. */
     "outDir": "./dist", /* Redirect output structure to the directory. */
