@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Beew-io/beew-sdk/compare/v1.1.0...v1.1.1) (2022-06-04)
+
+
+### Bug Fixes
+
+* Remove license from Documentation ([33a3c74](https://github.com/Beew-io/beew-sdk/commit/33a3c74c62980d8ce0b3f955c3413c0c1e498c04))
+
 # [1.1.0](https://github.com/Beew-io/beew-sdk/compare/v1.0.1...v1.1.0) (2022-06-04)
 
 
