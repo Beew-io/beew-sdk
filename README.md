@@ -3,6 +3,12 @@
 
 > The simplest way of scheduling HTTP requests
 > 
+- Pick a common schedule or use UNIX-CRON schedule expression.
+- Schedule a request for a specific date.
+- Schedule your request in any timezone.
+- Register logs of your requests and responses.
+- Receive a email notification every time one of your requests fails
+
 ## Install
 
 `npm install --save beew`
@@ -45,6 +51,7 @@ Here is a list of all available methods:
 | client.schedule.get('schedule_id')  | Get schedule by id  |
 | client.schedule.delete('schedule_id')  | Delete schedule  |
 | client.execution.get('execution_id')  | Get execution by id  |
+
 
 
 ## 📝 License
