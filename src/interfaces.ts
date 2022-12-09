@@ -1,6 +1,6 @@
 /*
  * You can find your Beew secret in the Beew dashboard.
- * https://app.beew.io/en/api-settings
+ * https://app.beew.io/en/settings/api
  */
 export interface BeewConfig {
   secret: string;
