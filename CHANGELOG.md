@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Beew-io/beew-sdk/compare/v1.1.2...v1.1.3) (2022-12-09)
+
+
+### Bug Fixes
+
+* Readme typo fixed ([5fa2ed1](https://github.com/Beew-io/beew-sdk/commit/5fa2ed14741cec12123bc666dc262489307cfddf))
+
 ## [1.1.2](https://github.com/Beew-io/beew-sdk/compare/v1.1.1...v1.1.2) (2022-12-09)
 
 
