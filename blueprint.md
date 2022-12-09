@@ -9,7 +9,7 @@
 - Schedule a request for a specific date.
 - Schedule your request in any timezone.
 - Register logs of your requests and responses.
-- Receive a email notification every time one of your requests fails
+- Receive a email notification every time one of your requests fails.
 
 ## Install
 
