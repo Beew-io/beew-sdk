@@ -26,7 +26,7 @@ import { Beew, ScheduleMethod, ScheduleResponseType, ScheduleType } from "beew";
 
 /*
  * You can find your Beew secret in the Beew dashboard.
- * https://app.beew.io/en/api-settings
+ * https://app.beew.io/en/settings/api
  */
 const client = new Beew({ secret: "YOU_API_KEY_HERE" });
 
