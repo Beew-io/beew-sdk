@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Beew-io/beew-sdk/compare/v1.1.1...v1.1.2) (2022-12-09)
+
+
+### Bug Fixes
+
+* Change API settings URL on Readme ([7a6a705](https://github.com/Beew-io/beew-sdk/commit/7a6a705f7b2bd2a118384edb04d4307e39f613cd))
+
 ## [1.1.1](https://github.com/Beew-io/beew-sdk/compare/v1.1.0...v1.1.1) (2022-06-04)
 
 
